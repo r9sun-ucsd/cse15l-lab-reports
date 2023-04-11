@@ -1,5 +1,5 @@
 # Lab Report 1  
-Welcome to coding! This first lab report will be talking about how to set up our programming environment.  
+Welcome to coding! This first lab report will be talking about how to set up our programming environment.
 ## Account Setup  
 We'll have to log into our course account into UCSD in order to remotely login and use the UCSD servers (ieng6).  
 To do so, we'll want to find our course using the [course account lookup tool](https://sdacs.ucsd.edu/~icc/index.php).  
