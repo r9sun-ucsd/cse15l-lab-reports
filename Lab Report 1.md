@@ -21,10 +21,13 @@ First thing that will need to be done is an installation of git, found [here](ht
 After installation, git bash will need to be selected as the shell, which can be done by clicking the "+" button next to powershell.  
 From then on, you can access the school servers by running the command $ ssh cs15lsp23zz@ieng6.ucsd.edu where the zz is replaced by the unique 2 letters assigned to you along with the course account if taken in a different class/time.  
 Logging in for the first time you should see:  
-![Image](RemoteLogin1_Lab1.PNG)
+![Image](RemoteLogin1_Lab1.PNG)  
 Feel free to say "yes" and enter the remote server. After doing so, you will be prompted with entering your password which should be done.  
 After all of it is done, your terminal should display:  
-![Image](RemoteLogin2_Lab1.PNG)
+![Image](RemoteLogin2_Lab1.PNG)  
 Congratulations! You have hacked into the UCSD servers!
   
 ## Trying Some Commands  
+You can test some commands around in the server now. For example, try running $ ls, to see where you are and $ cd ~, where ~ is some file path.  
+These commands are not limited to being run in ssh, and can be run generally in the normal terminal like such:
+![Image](Commands_Lab1.PNG)
