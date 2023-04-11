@@ -30,4 +30,6 @@ Congratulations! You have hacked into the UCSD servers!
 ## Trying Some Commands  
 You can test some commands around in the server now. Try running $ ls, to see where you are and $ cd ~, where ~ is some file path.  
 These commands are not limited to being run in ssh, and can be run generally in the normal terminal like such:
-![Image](Commands_Lab1.PNG)
+![Image](Commands_Lab1.PNG)  
+  
+Following this, your account and workplace should be all setup to run some code!
