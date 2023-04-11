@@ -18,10 +18,13 @@ If the instructions were followed correctly, the starting screen for when VS Cod
 ## Remote Login  
 Once VS Code is setup, we may remotely log in to the UCSD servers using VS Code and our setup course account!  
 First thing that will need to be done is an installation of git, found [here](https://gitforwindows.org/).  
-After installation, git bash will need to be selected as the shell, which can be done by clicking the "+" button next to powershell.
+After installation, git bash will need to be selected as the shell, which can be done by clicking the "+" button next to powershell.  
 From then on, you can access the school servers by running the command $ ssh cs15lsp23zz@ieng6.ucsd.edu where the zz is replaced by the unique 2 letters assigned to you along with the course account if taken in a different class/time.  
-
-
-  
+Logging in for the first time you should see:  
+![Image](RemoteLogin1_Lab1.PNG)
+Feel free to say "yes" and enter the remote server. After doing so, you will be prompted with entering your password which should be done.  
+After all of it is done, your terminal should display:  
+![Image](RemoteLogin2_Lab1.PNG)
+Congratulations! You have hacked into the UCSD servers!
   
 ## Trying Some Commands  
