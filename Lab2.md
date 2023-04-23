@@ -8,12 +8,14 @@ The following are a couple examples of the code working with answers below:
 ![Image](StringServerExample1.PNG)  
 In this example, the handleRequest method in the Handler class and the main method in the StringServer class were run.  
 The relevant argument passed to the handler method is the URL link, minus the domain name.  
-It breaks down the rest of the URL and only operates on the information given after the query.  
-If the query is specific and valid, it reads whatever information is on 
-
+Since there was a valid query, the message to be displayed was updated with the information after the query.  
+Now message, which was initially empty, contains "Yo Mr. White \n" as was added (except the newline,  
+which is to be ready for the next command to be inserted).  
+  
 ![Image](StringServerExample2.PNG)  
-
-
+The handleRequest method in the Handler class and the main method in the StringServer class were run in this example too.  
+The functionality was the same as described previously, except the query and message added this time was different, with  
+the message being updated again to contain "Yo Mr. White \n What's up Jesse? \n".
 
 ## Part 2  
 The bug for analysis here is the testReverseInPlace function for the ArrayExamples.  
