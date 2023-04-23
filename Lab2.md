@@ -19,5 +19,7 @@ However, it did also work for some inputs like:
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[] {}, input2);
 ```  
-Here's the proof: 
+Here's the proof:  
+  
+  
 ## Part 3  
