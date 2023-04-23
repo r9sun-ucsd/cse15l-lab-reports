@@ -21,6 +21,18 @@ However, it did also work for some inputs like:
 ```  
 Here's the proof: (Note how the first two tests, the default and my added test work as no error message popped up then)    
 ![Image](testReverseInPlaceFailure#1.PNG)  
-![Image](testReverseInPlaceFailure#2.PNG) 
+![Image](testReverseInPlaceFailure#2.PNG)  
+
+So what went wrong?  
+It was an issue of copying the data into the array we also had the data in. This means that data in earlier elements data were lost when  
+they were overriden and copied over by elements from the end of the array. This means that only number palindromes would've copied properly.  
+
+Before Code:  
+![Image](testReverseInPlaceBefore.PNG)  
+After Code:  
+![Image](testReverseInPlaceAfter.PNG)  
+
+This temp solution works because it stores the original array in a separate, unchanging entity. This means we can safely and reliably  
+copy the data over from the temp array into the original array to reverse the original array with the correct data.  
   
 ## Part 3  
