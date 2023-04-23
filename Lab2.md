@@ -19,7 +19,7 @@ However, it did also work for inputs like:
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[] {}, input2);
 ```  
-Here's the proof: (Note how the first two tests, the default and my added test work as no error message popped up then)    
+Here's the proof: (Note how the first two tests, the default and my added test work as no error message popped up on line 15 or 16)    
 ![Image](testReverseInPlaceFailure1.PNG)  
 ![Image](testReverseInPlaceFailure2.PNG)    
 
