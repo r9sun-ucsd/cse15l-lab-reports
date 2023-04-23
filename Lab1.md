@@ -39,3 +39,4 @@ Some basic commands to try are some of the aforementioned listed ones.
 cd ~, standing for change directory, with ~ representing the file path to change to (leave as ~ if you want to just return to the home directory).   
 ls ~, which shows the list of files in the ~ directory.  
 cp ~ ~, which copies files over from the first ~ path to the second ~ path. (Make sure to separate the ~s to show 2 different paths!)  
+cat ~ ~ ..., which concatenates and prints out the text from all the listed files into one giant text box.  
