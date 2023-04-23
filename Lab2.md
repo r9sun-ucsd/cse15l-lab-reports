@@ -4,9 +4,16 @@
 For this string server task, I used the following code to complete the job:  
 ![Image](StringServerCode.PNG)  
   
-The following are a couple examples of the code working:  
+The following are a couple examples of the code working with answers below:  
 ![Image](StringServerExample1.PNG)  
+In this example, the handleRequest method in the Handler class and the main method in the StringServer class were run.  
+The relevant argument passed to the handler method is the URL link, minus the domain name.  
+It breaks down the rest of the URL and only operates on the information given after the query.  
+If the query is specific and valid, it reads whatever information is on 
+
 ![Image](StringServerExample2.PNG)  
+
+
 
 ## Part 2  
 The bug for analysis here is the testReverseInPlace function for the ArrayExamples.  
