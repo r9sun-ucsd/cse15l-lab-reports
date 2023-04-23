@@ -2,7 +2,7 @@
   
 ## Part 1  
 ## Part 2  
-The bug for analysis here is the Array reverses functions (testReverseInPlace and testReversed).  
+The bug for analysis here is the testReverseInPlace function for the ArrayExamples.  
 For the first method, testReverseInPlace, a couple wrong inputs were:  
 ```
     int[] input3 = {2, 3};  
@@ -13,7 +13,7 @@ For the first method, testReverseInPlace, a couple wrong inputs were:
     ArrayExamples.reverseInPlace(input4);
     assertArrayEquals(new int[] {4, 3, 2, 1}, input4);
 ```  
-However, it did also work for some inputs like:  
+However, it did also work for inputs like:  
 ```
     int[] input2 = {};
     ArrayExamples.reverseInPlace(input2);
