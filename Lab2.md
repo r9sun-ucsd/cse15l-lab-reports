@@ -30,7 +30,7 @@ they were overriden and copied over by elements from the end of the array. This 
 Before Code:  
 ![Image](testReverseInPlaceBefore.PNG)  
 After Code:  
-![Image](testReverseInPlaceAfter.PNG)  
+![Image](testReserveInPlaceAfter.PNG)  
 
 This temp solution works because it stores the original array in a separate, unchanging entity. This means we can safely and reliably  
 copy the data over from the temp array into the original array to reverse the original array with the correct data.  
