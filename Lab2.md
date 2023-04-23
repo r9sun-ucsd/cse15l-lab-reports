@@ -36,3 +36,6 @@ This temp solution works because it stores the original array in a separate, unc
 copy the data over from the temp array into the original array to reverse the original array with the correct data.  
   
 ## Part 3  
+One thing I learned through these most recent things from these past 2 labs was setting up servers!  
+I did not know that my local computer could set up as a local server, and have its website and server be accessed by other people.  
+It was a cool experience setting up the server and having people mess around with the limited counting functions on it.
