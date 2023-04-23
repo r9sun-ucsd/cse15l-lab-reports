@@ -21,7 +21,7 @@ However, it did also work for some inputs like:
 ```  
 Here's the proof: (Note how the first two tests, the default and my added test work as no error message popped up then)    
 ![Image](testReverseInPlaceFailure#1.PNG)  
-![Image](testReverseInPlaceFailure#2.PNG)  
+![Image](testReverseInPlaceFailure#2.PNG)    
 
 So what went wrong?  
 It was an issue of copying the data into the array we also had the data in. This means that data in earlier elements data were lost when  
