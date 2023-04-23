@@ -1,6 +1,13 @@
 # Lab Report 2  
   
 ## Part 1  
+For this string server task, I used the following code to complete the job:  
+![Image](StringServerCode.PNG)  
+  
+The following are a couple examples of the code working:  
+![Image](StringServerExample1.PNG)  
+![Image](StringServerExample2.PNG)  
+
 ## Part 2  
 The bug for analysis here is the testReverseInPlace function for the ArrayExamples.  
 For the first method, testReverseInPlace, a couple wrong inputs were:  
