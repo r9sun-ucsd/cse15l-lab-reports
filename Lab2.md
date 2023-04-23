@@ -20,7 +20,7 @@ However, it did also work for some inputs like:
     assertArrayEquals(new int[] {}, input2);
 ```  
 Here's the proof: (Note how the first two tests, the default and my added test work as no error message popped up then)    
-![Image](testReverseInPlaceFailure#2.PNG)  
-![Image](testReverseInPlaceFailure#1.PNG) 
+![Image](testReverseInPlaceFailure#1.PNG)  
+![Image](testReverseInPlaceFailure#2.PNG) 
   
 ## Part 3  
