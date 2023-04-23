@@ -37,5 +37,5 @@ These commands are not limited to being run in ssh, and can be run generally in 
 Following this, your account and workplace should be all setup to run some code!
 Some basic commands to try are some of the aforementioned listed ones.
 cd ~, standing for change directory, with ~ representing the file path to change to (leave as ~ if you want to just return to the home directory).   
-ls, which shows the list of files in the current directory.  
+ls ~, which shows the list of files in the ~ directory.  
 cp ~ ~, which copies files over from the first ~ path to the second ~ path. (Make sure to separate the ~s to show 2 different paths!)  
