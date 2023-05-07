@@ -97,8 +97,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
  ```   
-This solution works because the two numbers are temporarily stored. The temporarily stored numbers can then properly be swapped without  
-having it copy wrongly by not changing and referencing the direct array.  
+This solution works because the two numbers are temporarily stored. The temporarily stored numbers can then properly be swapped  
+without having it copy wrongly by not changing and referencing the direct array.  
   
 ## Part 3  
 One thing I learned through these most recent things from these past 2 labs was setting up servers!  
