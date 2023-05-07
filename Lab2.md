@@ -74,8 +74,26 @@ It was an issue of copying the data into the array we also had the data in. This
 they were overriden and copied over by elements from the end of the array. This means that only number palindromes would've copied properly.  
 
 Before Code:  
+```  
+
+```  
 ![Image](testReverseInPlaceBefore.PNG)  
 After Code:  
+```  
+static void reverseInPlace(int[] arr) {
+    //Creating two temp numbers to hold
+    //Then swapping their positions
+    int pairOne;
+    int pairTwo;
+    for(int i = 0; i< arr.length; i++) {
+      pairOne = i;
+      pairTwo = arr.length - i;
+      arr[i] = pairTwo;
+      arr[arr.length - i] = pairOne;
+    }
+
+  }
+ ```  
 ![Image](testReverseInPlaceAfter.PNG)  
 
 This temp solution works because it stores the original array in a separate, unchanging entity. This means we can safely and reliably  
