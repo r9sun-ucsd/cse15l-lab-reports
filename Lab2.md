@@ -2,7 +2,37 @@
   
 ## Part 1  
 For this string server task, I used the following code to complete the job:  
-![Image](StringServerCode.PNG)  
+```  
+class Handler implements URLHandler {
+    // Foundation copied over from NumberServer
+    String message = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().contains("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            String stringToPrint = parameters[1];
+            message = message + stringToPrint + "\n";
+
+        } 
+        
+        return String.format(message);
+    }
+}
+
+
+public class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```  
   
 The following are a couple examples of the code working with answers below:  
 ![Image](StringServerExample1.PNG)  
