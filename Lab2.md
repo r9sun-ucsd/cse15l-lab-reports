@@ -75,9 +75,13 @@ they were overriden and copied over by elements from the end of the array. This 
 
 Before Code:  
 ```  
-
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i< arr.length; i++) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
 ```  
-![Image](testReverseInPlaceBefore.PNG)  
+  
 After Code:  
 ```  
 static void reverseInPlace(int[] arr) {
@@ -91,13 +95,10 @@ static void reverseInPlace(int[] arr) {
       arr[i] = pairTwo;
       arr[arr.length - i] = pairOne;
     }
-
   }
- ```  
-![Image](testReverseInPlaceAfter.PNG)  
-
-This temp solution works because it stores the original array in a separate, unchanging entity. This means we can safely and reliably  
-copy the data over from the temp array into the original array to reverse the original array with the correct data.  
+ ```   
+This solution works because the two numbers are temporarily stored. The temporarily stored numbers can then properly be swapped without  
+having it copy wrongly by not changing and referencing the direct array.  
   
 ## Part 3  
 One thing I learned through these most recent things from these past 2 labs was setting up servers!  
