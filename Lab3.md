@@ -93,11 +93,13 @@ This example shows what the -n command does. In addition to showing the lines co
 Example 2-  
 ```
 Code:  
-$ grep "sus" -n plos/journal.pbio.0020001.txt
+$ grep "sus" -n plos/journal.pbio.0020001.txt plos/journal.pbio.0020223.txt
 Output:  
-138:        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
-156:        versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
-157:        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
+plos/journal.pbio.0020001.txt:138:        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
+plos/journal.pbio.0020001.txt:156:        versus 6% in the top 20 ecological journals, whereas the United States 
+and Canada had 81%
+plos/journal.pbio.0020001.txt:157:        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
+plos/journal.pbio.0020223.txt:11:        to sustain and improve increasingly complex biological systems. It is tempting to speculate
 ```  
 This is another example showing, again, how the -n command can be used to cleanly find a reference line to the keyword being looked for.  
 
@@ -106,6 +108,11 @@ The following are examples showing the -h flag.
 Example 1-  
 Code:  
 Output:  
+grep "sus" -h plos/journal.pbio.0020001.txt plos/journal.pbio.0020223.txt
+        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
+        versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
+        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
+        to sustain and improve increasingly complex biological systems. It is tempting to speculate
 Example 2-  
 Code:  
 Output:  
