@@ -9,7 +9,7 @@ The following are examples showing the -i flag.
 Example 1-  
 ```  
 Code: 
-grep -i "among" plos/journal.pbio.0020001.txt
+$ grep -i "among" plos/journal.pbio.0020001.txt
 Output:
 Among Latin American countries, there is a high degree of variability in publication
 scientific collaborations among scientists in Latin America, Europe, and the United States
@@ -20,7 +20,7 @@ We can see how the -i flag factors in for the search method here. Despite search
 Example 2-  
 ```  
 Code: 
-grep "US" -i plos/journal.pbio.0020001.txt
+$ grep "US" -i plos/journal.pbio.0020001.txt
 
 Output:
 serious problems not only for the scientific community in the developing countries, but for
@@ -61,8 +61,8 @@ Note that nothing popped out in the output. This is because there is no individu
 Example 2-  
 ```
 Code:  
-grep "search" -w plos/journal.pbio.0020001.txt
-grep "researcher" -w plos/journal.pbio.0020001.txt
+$ grep "search" -w plos/journal.pbio.0020001.txt
+$ grep "researcher" -w plos/journal.pbio.0020001.txt
 Output:  
 cheaper in the developing world due to relatively low researcher salaries, overhead and
 from North America (73%) and Europe (21%) (ISI 2001b). No researcher working in a Latin
@@ -75,7 +75,7 @@ The following are examples showing the -n flag.
 Example 1-  
 ```
 Code:  
-grep "researcher" -n plos/journal.pbio.0020001.txt
+$ grep "researcher" -n plos/journal.pbio.0020001.txt
 Output:
 19:        and development, had approximately 72% of the world researchers, and produced approximately
 66:        research money available to researchers, Latin America actually out-published the United
@@ -93,7 +93,7 @@ This example shows what the -n command does. In addition to showing the lines co
 Example 2-  
 ```
 Code:  
-grep "sus" -n plos/journal.pbio.0020001.txt
+$ grep "sus" -n plos/journal.pbio.0020001.txt
 Output:  
 138:        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
 156:        versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
