@@ -15,7 +15,7 @@ Among Latin American countries, there is a high degree of variability in publica
 scientific collaborations among scientists in Latin America, Europe, and the United States
 the top journals or become amongst the most cited researchers in their fields? One
 ```  
-We can see how the -i flag factors in for the search method here. Despite searching for a lowercase "among" in our grep function, the -i flag meant we included all variations of the spelling "among", ignoring case. This allowed the finding of "Among Latin ..." and including it as a line containing "among" to be printed out.  
+We can see how the -i flag factors in for the search method here. Despite searching for a lowercase "among" in our grep function, the -i flag meant we included all variations of the spelling "among", ignoring case. This allowed the finding of "Among Latin ..." and including it as a line containing "among" to be printed out. It's helpful to find keywords without having to worry about capitalization causing various permutations of words.  
 
 Example 2-  
 ```  
