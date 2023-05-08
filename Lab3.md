@@ -73,8 +73,21 @@ A little explanation is needed here. The first command using search yielded no r
 -n flag: 
 The following are examples showing the -n flag.  
 Example 1-  
+```
 Code:  
-Output:  
+grep "researcher" -n plos/journal.pbio.0020001.txt
+Output:
+19:        and development, had approximately 72% of the world researchers, and produced approximately
+66:        research money available to researchers, Latin America actually out-published the United
+68:        cheaper in the developing world due to relatively low researcher salaries, overhead and
+158:        American researchers are not shying away from the two top-ranked general science journals.
+162:        citations of these researchers. The latest list of the 247 most-cited researchers in
+164:        from North America (73%) and Europe (21%) (ISI 2001b). No researcher working in a Latin
+169:        publications per researcher funding amount. Similar findings were also reported for Asia
+171:        Although there are outstanding scientific researchers in the developing world who
+174:        the top journals or become amongst the most cited researchers in their fields? One
+189:        meetings for researchers in the developing compared with the developed world.
+```
 Example 2-  
 Code:  
 Output:  
