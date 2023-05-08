@@ -6,6 +6,7 @@ Note: The source for all the following commands was found using this [link](http
   
 -o flag: It is a command that prints the matching parts of the line obtained by grep.  
 The following are examples showing the -o flag.  
+
   
 -n flag: 
 The following are examples showing the -n flag.
@@ -15,3 +16,9 @@ The following are examples showing the -h flag.
 
 -i flag: 
 The following are examples showing the -i flag.  
+Example 1-  
+![Image}(i_flag_ex1.PNG)
+  
+Example 2-  
+![Image}(i_flag_ex2.PNG)
+  
