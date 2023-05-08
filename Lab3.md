@@ -25,7 +25,6 @@ Among Latin American countries, there is a high degree of variability in publica
 scientific collaborations among scientists in Latin America, Europe, and the United States
 the top journals or become amongst the most cited researchers in their fields? One
 ```  
-![Image](i_flag_ex1.PNG)  
   
 Example 2-  
 ```  
@@ -54,5 +53,5 @@ linked to the region and that because the major funding agencies as well as most
 Annan. There are many compelling reasons for the push to increase scientific input from the
 industrialized world. This has been the case for research on renewable energy sources in
 ```  
-![Image](i_flag_ex2.PNG)  
+
   
