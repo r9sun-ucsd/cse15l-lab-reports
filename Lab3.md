@@ -17,8 +17,8 @@ The following are examples showing the -h flag.
 -i flag: 
 The following are examples showing the -i flag.  
 Example 1-  
-![Image}(i_flag_ex1.PNG)
+![Image](i_flag_ex1.PNG)  
   
 Example 2-  
-![Image}(i_flag_ex2.PNG)
+![Image](i_flag_ex2.PNG)  
   
