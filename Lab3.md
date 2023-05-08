@@ -87,10 +87,19 @@ Output:
 171:        Although there are outstanding scientific researchers in the developing world who
 174:        the top journals or become amongst the most cited researchers in their fields? One
 189:        meetings for researchers in the developing compared with the developed world.
-```
+```  
+This example shows what the -n command does. In addition to showing the lines containing the designated argument, it also helpfully prints out the lines in the file it was found on! This can be used to find and order certain sentences if research or organization is needed.  
+  
 Example 2-  
+```
 Code:  
+grep "sus" -n plos/journal.pbio.0020001.txt
 Output:  
+138:        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
+156:        versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
+157:        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
+```  
+This is another example showing, again, how the -n command can be used to cleanly find a reference line to the keyword being looked for.  
 
 -h flag: 
 The following are examples showing the -h flag.  
