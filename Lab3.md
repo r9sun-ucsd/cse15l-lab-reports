@@ -133,4 +133,4 @@ misuse the power given by patents, using them as anticompetitive weapons to bloc
 20 meters (21.8 yards) thick that had become susceptible to burning in swampy forests
 channels are essential elsewhere in the body, as DeSimone suspects, to avoid lethality he
 ```
-
+This example is similar to example 1 above, but this time parses a much larger database with the wildcard. As a result, the vast amount of data we wanted to search up under all these files could be printed out, without having the clutter of the various files and their destinations being printed out. Once again, this is helpful by being able to parse massive amounts of data and output all the desired data when the source doesn't matter.  
