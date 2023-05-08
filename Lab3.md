@@ -4,16 +4,6 @@ The commands we'll be looking at are the commands: -i, -n, -w, and -h.
 
 Note: The source for all the following commands was found using this [link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/). Also the fact that these test are being run in the technical/ directory.  
   
--w flag: It is a command that prints the lines that match the argument passed only if that line has the whole word on it.
-The following are examples showing the -w flag.  
-
-  
--n flag: 
-The following are examples showing the -n flag.
-
--h flag: 
-The following are examples showing the -h flag.
-
 -i flag: The -i means that when grep is looking to match lines, the case of the desired argument in the file being searched does not matter when printing. It enables the printing of lines that have the same characters and keywords/phrases matching, without woring about upper/lowercase.  
 The following are examples showing the -i flag.  
 Example 1-  
@@ -25,7 +15,8 @@ Among Latin American countries, there is a high degree of variability in publica
 scientific collaborations among scientists in Latin America, Europe, and the United States
 the top journals or become amongst the most cited researchers in their fields? One
 ```  
-  
+We can see how the -i flag factors in for the search method here. Despite searching for a lowercase "among" in our grep function, the -i flag meant we included all variations of the spelling "among", ignoring case. This allowed the finding of "Among Latin ..." and including it as a line containing "among" to be printed out.  
+
 Example 2-  
 ```  
 Code: 
@@ -53,5 +44,40 @@ linked to the region and that because the major funding agencies as well as most
 Annan. There are many compelling reasons for the push to increase scientific input from the
 industrialized world. This has been the case for research on renewable energy sources in
 ```  
+This example flips shows something similar to the first example, but this time our search is in casing. We may not expect US to pop up in any lines, except for maybe references to the United States. However, since the i flag, once again, doesn't care about casing, "us" was being found in sentences containing words like "industrial" or "because" because the two letters "u" and "s", regardless of casing were found there.  
+  
+  
+-w flag: It is a command that prints the lines that match the argument passed only if that line has the whole word on it.
+The following are examples showing the -w flag.  
+Example 1-  
+```
+Code:  
+$ grep "us" -w plos/journal.pbio.0020001.txt
+Output:  
+Nothing
+```  
+Note that nothing popped out in the output. This is because there is no individual, whole word of "us" being found within the sentence. This can be seen in comparison to example 2 of the aforementioned -i flag discussion. There, many words containing "us" like "industrial" were found, but the -w flag here now looks for the whole words of "us" being isolated as a word. As a result, nothing was printed out.  
+
+Example 2-  
+Code:  
+Output:  
 
   
+-n flag: 
+The following are examples showing the -n flag.  
+Example 1-  
+Code:  
+Output:  
+Example 2-  
+Code:  
+Output:  
+
+-h flag: 
+The following are examples showing the -h flag.  
+Example 1-  
+Code:  
+Output:  
+Example 2-  
+Code:  
+Output:  
+
