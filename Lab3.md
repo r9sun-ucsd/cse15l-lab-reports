@@ -59,9 +59,16 @@ Nothing
 Note that nothing popped out in the output. This is because there is no individual, whole word of "us" being found within the sentence. This can be seen in comparison to example 2 of the aforementioned -i flag discussion. There, many words containing "us" like "industrial" were found, but the -w flag here now looks for the whole words of "us" being isolated as a word. As a result, nothing was printed out.  
 
 Example 2-  
+```
 Code:  
+grep "search" -w plos/journal.pbio.0020001.txt
+grep "researcher" -w plos/journal.pbio.0020001.txt
 Output:  
-
+cheaper in the developing world due to relatively low researcher salaries, overhead and
+from North America (73%) and Europe (21%) (ISI 2001b). No researcher working in a Latin
+publications per researcher funding amount. Similar findings were also reported for Asia
+```  
+A little explanation is needed here. The first command using search yielded no results, while the second command yielded the listed output below. As shown by these two commands and output then, although search results in nothing because there is no individual word search that pops up, a word that contains search, researcher, does have output. This shows that once again, -w parses the file for the individual argument passed to be on its own.  
   
 -n flag: 
 The following are examples showing the -n flag.  
