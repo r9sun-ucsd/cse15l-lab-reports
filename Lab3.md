@@ -70,7 +70,7 @@ publications per researcher funding amount. Similar findings were also reported 
 ```  
 A little explanation is needed here. The first command using search yielded no results, while the second command yielded the listed output below. As shown by these two commands and output then, although search results in nothing because there is no individual word search that pops up, a word that contains search, researcher, does have output. This shows that once again, -w parses the file for the individual argument passed to be on its own.  
   
--n flag: 
+-n flag: The -n command runs like the regular grep command, but it also shows which line and file (if greater than one file inputted) the line that matched the query was from.  
 The following are examples showing the -n flag.  
 Example 1-  
 ```
@@ -101,19 +101,36 @@ and Canada had 81%
 plos/journal.pbio.0020001.txt:157:        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
 plos/journal.pbio.0020223.txt:11:        to sustain and improve increasingly complex biological systems. It is tempting to speculate
 ```  
-This is another example showing, again, how the -n command can be used to cleanly find a reference line to the keyword being looked for.  
+This is another example showing, again, how the -n command can be used to cleanly find a reference line to the keyword being looked for multiple files this time.  
 
--h flag: 
+-h flag: the -h prints out the sentences aligning with the searched keyword from all the files given to it, but without any mention of where they came from (i.e. file, line, etc.)  
+
 The following are examples showing the -h flag.  
 Example 1-  
+```
 Code:  
+$ grep "sus" -h plos/journal.pbio.0020001.txt plos/journal.pbio.0020223.txt
 Output:  
-grep "sus" -h plos/journal.pbio.0020001.txt plos/journal.pbio.0020223.txt
-        data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
-        versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
-        versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
-        to sustain and improve increasingly complex biological systems. It is tempting to speculate
+data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
+versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
+versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
+to sustain and improve increasingly complex biological systems. It is tempting to speculate
+```  
+This is the same command as previously done in example 2 of the -n examples. This time though, the -h doesn't have any of the long information resulting from the searches. This enables the -h command to take large aggregate data, and just assemble them on similarity without having to worry about logging where they come from.  
+
 Example 2-  
+```
 Code:  
+$ grep "sus" -h plos/journal.pbio.00200*.txt
 Output:  
+data as contributions to the top 10 ecological journals (impact factors 10.51–3.31) versus
+versus 6% in the top 20 ecological journals, whereas the United States and Canada had 81%
+versus 82% and 12% versus 13%, respectively. These similarities suggest that the Latin
++ /JAMM motif is a consensus sequence E—HxHx
+different optima from the perspectives of maternal versus paternal genes. Possibly, the
+marked reduction of stuttering frequency, which has raised suspicions of impaired auditory
+misuse the power given by patents, using them as anticompetitive weapons to block
+20 meters (21.8 yards) thick that had become susceptible to burning in swampy forests
+channels are essential elsewhere in the body, as DeSimone suspects, to avoid lethality he
+```
 
