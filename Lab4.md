@@ -43,6 +43,7 @@ This gives us the new output:
 ![Image](Lab4ScreenShot5.PNG)  
   
 The fixed code can now be pushed to my repository.  
+
 ```
 git add ListExamples.java
 git commit
@@ -50,6 +51,6 @@ i Whoa!!!! <Escape> :wq
 ```  
 The git add adds the file that should be pushed to the git repository. Since I have edited the ListExamples.java code to be correct, I want to push that to my repository. The git commit officially sends and pushes the files that were all added with git add. After running git commit, a new screen with the vim editor was put on the terminal screen to add a commit message. The "i" entered insert mode so that I could add my edit message, which was "Whoa!!!!". <Escape> and ":wq" allowed me to save the commit message and finalize sending that commit.  
 That resulted in the following output.  
-![Image](Lab4ScreenShot6.PNG)   
+![Image](Lab4ScreenShot6.PNG)  
   
 Tada! The End (I hope you enjoyed)!
