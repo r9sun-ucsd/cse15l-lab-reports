@@ -14,14 +14,14 @@ Next, I needed to clone the repository, which was done with the code:
 git clone https://github.com/r9sun-ucsd/lab7.git <Enter>
 ```
 The keystrokes were exactly as typed in the code above and resulted in the following output:  
-  
+![Image](Lab4ScreenShot2.PNG)  
 
 Next, I needed to check that the code was broken. The following command was used.  
 ```
 bash test.sh <Enter>
 ```
 This ran the JUnit tester on the code and outputted the following error message, oh no!  
-  
+![Image](Lab4ScreenShot3.PNG)  
   
 Due to this, I had to fix the wrong code using the vim text editor. 
 ```
@@ -40,7 +40,7 @@ to "index2". The next 5 "l" commands were moving right on that line to reach the
 The "i" command puts vim into edit mode, where backspace and 2 changed "index1" to "index2". Finally, "esc"  
 could be called to exit back to normal mode from insert mode, and then the file could be saved and quit with ":wq". 
 The code's final result was:  
- 
+![Image](Lab4ScreenShot4.PNG)  
   
 From here, we could retest the corrected, fixed code to show the error being gone!  
 ```
@@ -48,7 +48,7 @@ From here, we could retest the corrected, fixed code to show the error being gon
 ```
 The up commands were called because they referenced previous commands. Due to us testing the file earlier,  
 we can simply go back two commands to rerun the previously run test command. This gives us the new output:  
-  
+![Image](Lab4ScreenShot5.PNG)  
   
 The fixed code can now be pushed to my repository.  
 ```
@@ -62,6 +62,6 @@ sends and pushes the files that were all added with git add. After running git c
 the vim editor was put on the terminal screen to add a commit message. The "i" entered insert mode so that  
 I could add my edit message, which was "Whoa!!!!". <Escape> and ":wq" allowed me to save the commit message  
 and finalize sending that commit. That resulted in the following output.  
-  
+![Image](Lab4ScreenShot6.PNG)  
   
 Tada! The End (I hope you enjoyed)!
