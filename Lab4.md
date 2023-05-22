@@ -7,7 +7,7 @@ ssh cs15lsp23ov@ieng6.ucsd.edu <Enter>
 This just logged me in remotely into the server. Note: No password was prompted and entered because of the  
 ssh keys set up in lab previously.  
 The end result image was:  
-[!Image](Lab4ScreenShot1.PNG)  
+![Image](Lab4ScreenShot1.PNG)  
 
 Next, I needed to clone the repository, which was done with the code:  
 ```
