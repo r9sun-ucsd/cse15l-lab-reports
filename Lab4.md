@@ -1,5 +1,5 @@
 ## Lab Report 4  
-
+  
 Start with logging in:
 ```
 ssh cs15lsp23ov@ieng6.ucsd.edu <Enter>
@@ -23,7 +23,7 @@ bash test.sh <Enter>
 This ran the JUnit tester on the code and outputted the following error message, oh no!  
 [!Image](Lab4ScreenShot3.PNG)  
   
-Due to this, I had to fix 
+Due to this, I had to fix the wrong code using the vim text editor. 
 ```
 vim ListExamples.java <Enter>
 /index1 
@@ -40,6 +40,28 @@ to "index2". The next 5 "l" commands were moving right on that line to reach the
 The "i" command puts vim into edit mode, where backspace and 2 changed "index1" to "index2". Finally, "esc"  
 could be called to exit back to normal mode from insert mode, and then the file could be saved and quit with ":wq". 
 The code's final result was:  
-[!Image](Lab4ScreenShot1.PNG) 
+[!Image](Lab4ScreenShot4.PNG) 
   
-
+From here, we could retest the corrected, fixed code to show the error being gone!  
+```
+<Up> <Up> <Enter>
+```
+The up commands were called because they referenced previous commands. Due to us testing the file earlier,  
+we can simply go back two commands to rerun the previously run test command. This gives us the new output:  
+[!Image](Lab4ScreenShot5.PNG)  
+  
+The fixed code can now be pushed to my repository.  
+```
+git add ListExamples.java
+git commit
+i Whoa!!!! <Escape> :wq
+```  
+The git add adds the file that should be pushed to the git repository. Since I have edited the  
+ListExamples.java code to be correct, I want to push that to my repository. The git commit officially  
+sends and pushes the files that were all added with git add. After running git commit, a new screen with  
+the vim editor was put on the terminal screen to add a commit message. The "i" entered insert mode so that  
+I could add my edit message, which was "Whoa!!!!". <Escape> and ":wq" allowed me to save the commit message  
+and finalize sending that commit. That resulted in the following output.  
+[!Image](Lab4ScreenShot6.PNG)  
+  
+Tada! The End (I hope you enjoyed)!
