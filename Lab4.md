@@ -38,7 +38,7 @@ first instance of index1 popping up in the code, where the next 9 "n" commands w
 the times "index1" popped up in the code to reach the instance of the "index1" that we needed to switch  
 to "index2". The next 5 "l" commands were moving right on that line to reach the "1" to replace and delete.  
 The "i" command puts vim into edit mode, where backspace and 2 changed "index1" to "index2". Finally, "esc"  
-could be called to exit back to normal mode from insert mode, and then the file could be saved and quit with ":wq". 
+could be called to exit back to normal mode from insert mode, and then the file could be saved and quit with ":wq".  
 The code's final result was:  
 ![Image](Lab4ScreenShot4.PNG)  
   
