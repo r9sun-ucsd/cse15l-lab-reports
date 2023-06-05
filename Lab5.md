@@ -3,4 +3,4 @@
   
   
 ## Reflection  
-One of the things I enjoyed learning about this quarter was the creation of our own grading scripts. While definitely simplified, and one of the harder, more tedious labs, it was cool to see the real applications of this class. During the lab sections involving the autograder, 
+One of the things I enjoyed learning about this quarter was the creation of our own grading scripts. While definitely simplified, and one of the harder, more tedious labs, it was cool to see the real applications of this class. During the lab sections involving the autograder, I learned a bit more about bash and reviewed some commands like grep and whatnot, and how to apply them in bash, to run the autograder script that would 
