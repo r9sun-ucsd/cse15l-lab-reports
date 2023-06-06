@@ -19,18 +19,21 @@ Hello! Do you mind telling me what specific code changed. That being said, why d
 Second Student Response:  
 Hello, I tried running the command on the output that should've failed and got the same error message!  
 [!Image](Lab5_Error_Message2.PNG)  
+  
 The error was that the git clone was running on git clone $0, and so was never properly cloning the URL that was passed in to the grading command! The command should've been git clone $1 in order to correctly parse the URL argument.  
   
 In the end, the grading directory structure was this:  
 [!Image](Code_File_Setup.PNG)  
+  
 The code before that contained the bug was:  
 [!Image](Code_Error.PNG)  
+  
 The command that triggered the error:  
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
 ```  
 The fix:  
-A simple misunderstanding of the numbering of the arguments passed to it. $1 would give the first argument that wasn't the command bash, and so could properly run the command within the autograder script.  
+A simple misunderstanding of the numbering of the arguments passed to it. $1 would give the first argument that wasn't the command bash, and so could properly run the command within the autograder script, while running $0 would confuse the grade script with the supposed "file" passed to it.  
   
 ## Reflection  
 One of the things I enjoyed learning about this quarter was the creation of our own grading scripts. While definitely simplified, and one of the harder, more tedious labs, it was cool to see the real applications of this class. During the lab sections involving the autograder, I learned a bit more about bash and reviewed some commands like grep and whatnot, and how to apply them in bash, to run the autograder script that would 
