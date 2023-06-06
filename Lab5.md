@@ -7,7 +7,7 @@ I am currently attempting to do my grading script. I am currently using VS Code 
   
 Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.  
 The error output here is:  
-[!Image](Lab5_Error_Message.PNG)  
+![Image](Lab5_Error_Message.PNG)  
 The code should instead run properly, and return that all 5 tests were correct with 5/5 being returned. Here is the code I was running and using at the time.  
   
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.  
@@ -18,15 +18,15 @@ Hello! Do you mind telling me what specific code changed. That being said, why d
   
 Second Student Response:  
 Hello, I tried running the command on the output that should've failed and got the same error message!  
-[!Image](Lab5_Error_Message2.PNG)  
+![Image](Lab5_Error_Message2.PNG)  
   
 The error was that the git clone was running on git clone $0, and so was never properly cloning the URL that was passed in to the grading command! The command should've been git clone $1 in order to correctly parse the URL argument.  
   
 In the end, the grading directory structure was this:  
-[!Image](Code_File_Setup.PNG)  
+![Image](Code_File_Setup.PNG)  
   
 The code before that contained the bug was:  
-[!Image](Code_Error.PNG)  
+![Image](Code_Error.PNG)  
   
 The command that triggered the error:  
 ```
