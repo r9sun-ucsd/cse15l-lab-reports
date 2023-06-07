@@ -45,12 +45,14 @@ This gives us the new output:
 The fixed code can now be pushed to my repository.  
 
 ```
-git add ListExamples.java
-git commit
-i Whoa!!!! <Escape> :wq
+git add ListExamples.java <Enter>
+git commit <Enter>
+i Whoa!!!! <Escape> :wq <Enter>
+git push <Enter>
 ```  
-The git add adds the file that should be pushed to the git repository. Since I have edited the ListExamples.java code to be correct, I want to push that to my repository. The git commit officially sends and pushes the files that were all added with git add. After running git commit, a new screen with the vim editor was put on the terminal screen to add a commit message. Pressing the "i" entered insert mode so that I could add my edit message, which was "Whoa!!!!". Escape and ":wq" allowed me to save the commit message and finalize sending that commit.  
+The git add adds the file that should be pushed to the git repository. Since I have edited the ListExamples.java code to be correct, I want to push that to my repository. The git commit officially sends and pushes the files that were all added with git add. After running git commit, a new screen with the vim editor was put on the terminal screen to add a commit message. Pressing the "i" entered insert mode so that I could add my edit message, which was "Whoa!!!!". Escape and ":wq" allowed me to save the commit message and finalize sending that commit. I could then push the results to my branch using git push.   
 That resulted in the following output.  
 ![Image](Lab4ScreenShot6.PNG)  
-  
+![Image](Lab4ScreenShot7.PNG)  
+
 Tada! The End (I hope you enjoyed)!
