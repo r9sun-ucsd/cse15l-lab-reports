@@ -10,7 +10,7 @@ The end result image was:
 
 Next, I needed to clone the repository, which was done with the code:  
 ```
-git clone https://github.com/r9sun-ucsd/lab7.git <Enter>
+git clone git@github.com:r9sun-ucsd/lab7.git <Enter>
 ```
 The keystrokes were exactly as typed in the code above and resulted in the following output:  
 ![Image](Lab4ScreenShot2.PNG)  
